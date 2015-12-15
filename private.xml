@@ -75,11 +75,25 @@
 
 	<item>
 		<name>CapsBackSpace to Delete</name>
-		<identifier>private.caps.backspace_delete</identifier>
+		<identifier>private.caps.backspace_deletek</identifier>
 		<autogen>
 			__KeyToKey__
 			KeyCode::DELETE, ModifierFlag::CONTROL_L,
 			KeyCode::FORWARD_DELETE
+		</autogen>
+	</item>
+	<item>
+		<name>AltBrackets to PageUpDown</name>
+		<identifier>private.alt.pageupdown</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BRACKET_LEFT, ModifierFlag::OPTION_L,
+			KeyCode::PAGEUP
+		</autogen>
+		<autogen>
+			__KeyToKey__
+			KeyCode::BRACKET_RIGHT, ModifierFlag::OPTION_L,
+			KeyCode::PAGEDOWN
 		</autogen>
 	</item>
 </root>
