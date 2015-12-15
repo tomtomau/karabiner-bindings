@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+		<name>Caps WASD to arrows</name>
+		<identifier>private.caps.wasd</identifier>
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::W, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_UP
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::A, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_LEFT
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::S, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_DOWN
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::D, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_RIGHT
+	    </autogen>
+	</item>
+
+	<item>
+		<name>Caps IJKL to arrows</name>
+		<identifier>private.caps.ijkl</identifier>
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::I, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_UP
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::J, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_LEFT
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::K, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_DOWN
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::L, ModifierFlag::CONTROL_L,
+    		KeyCode::CURSOR_RIGHT
+	    </autogen>
+	</item>
+
+
+	<item>
+		<name>CapsBracket to Home/End</name>
+		<identifier>private.caps.home_end</identifier>
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::BRACKET_LEFT, ModifierFlag::CONTROL_L,
+    		KeyCode::HOME
+	    </autogen>
+
+	    <autogen>
+	    	__KeyToKey__ 
+	    	KeyCode::BRACKET_RIGHT, ModifierFlag::CONTROL_L,
+    		KeyCode::END
+	    </autogen>
+	</item>
+
+	<item>
+		<name>CapsBackSpace to Delete</name>
+		<identifier>private.caps.backspace_delete</identifier>
+		<autogen>
+			__KeyToKey__
+			KeyCode::DELETE, ModifierFlag::CONTROL_L,
+			KeyCode::FORWARD_DELETE
+		</autogen>
+	</item>
+</root>
